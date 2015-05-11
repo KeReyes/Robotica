@@ -11,13 +11,13 @@ nos mande un sonido predeterminado a la bocina.
 // definimos el pin trece para la bocina que conectaremos
 #define speaker 13
 
-CapacitiveSensor   cs_2_5 = CapacitiveSensor(2,5);        // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 5 como emisor
-CapacitiveSensor   cs_2_6 = CapacitiveSensor(2,6);          // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 6 como emisor
-CapacitiveSensor   cs_2_7 = CapacitiveSensor(2,7);         // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 7 como emisor
-CapacitiveSensor   cs_2_8 = CapacitiveSensor(2,8);          // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 8 como emisor
-CapacitiveSensor   cs_2_9 = CapacitiveSensor(2,9);          // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 9 como emisor
-CapacitiveSensor   cs_2_10 = CapacitiveSensor(2,10);           // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 10 como emisor
-CapacitiveSensor   cs_2_11 = CapacitiveSensor(2,11);           // conectores de una resistencia en el pin 2 la patita que actuara como receptor y en el 11 como emisor
+CapacitiveSensor   cs_2_5 = CapacitiveSensor(2,5);        // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 5 como receptor
+CapacitiveSensor   cs_2_6 = CapacitiveSensor(2,6);          // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 6 como receptor
+CapacitiveSensor   cs_2_7 = CapacitiveSensor(2,7);         // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 7 como receptor
+CapacitiveSensor   cs_2_8 = CapacitiveSensor(2,8);          // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 8 como receptor
+CapacitiveSensor   cs_2_9 = CapacitiveSensor(2,9);          // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 9 como receptor
+CapacitiveSensor   cs_2_10 = CapacitiveSensor(2,10);           // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 10 como receptor
+CapacitiveSensor   cs_2_11 = CapacitiveSensor(2,11);           // conectores de una resistencia en el pin 2 la patita que actuara como emisor y en el 11 como receptor
 
 
 void setup()                    
